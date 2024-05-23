@@ -1,0 +1,98 @@
+
+	body{
+		font-family:'Kavoon', cursive;
+		margin: 0px;
+		padding: 0px;
+		background: url('gym2.jpg');
+		height:600px;
+		color:white;
+	}
+	.left{
+		display:inline-block;
+		
+		position:absolute;
+		left:60px;
+		top:20px;
+	}
+	.left img{
+		width:80px;
+		filter:invert(100%);
+	}
+	.mid{
+		
+		display:block;
+		margin: 20px auto;
+		width:45%;
+	}
+	.right{
+		position:absolute;
+		right:34px;
+		top:20px;
+		diplay:inline-block;
+		
+	}
+	.navbar{
+		display:inline-block;
+
+	}
+	.navbar li{
+		font-size:16px;
+		display:inline-block;
+		}
+	.navbar li a{
+		color:white;
+		text-decoration:none;
+		padding:34px 23px;
+
+	}
+	.navbar li a:hover, .active li a:active{
+		color:dimgrey;
+		text-decoration:underline;
+	}
+	.left div{
+		text-align:center;
+		font-size:13px;
+		
+	}
+	.btn{
+		font-family:'Kavoon', cursive;
+		margin:0px 9px;
+		color:white;
+		background-color:black;
+		padding:4px 14px;
+		border-radius: 5px;
+		font-size:15px;
+		cursor:pointer;	
+	}
+	.btn:hover{
+		background-color: darkgrey;
+	}
+	.container{
+		border:2px solid white;
+		margin:122px 44px;
+		padding:15px;
+		height: 350px;
+        width: 600px;
+		border-radius:10px;
+		float:right;
+		
+	}
+	.form-group input{
+		text-align:center;
+		display:block;
+		width:400px;
+		padding:4px;
+		border:2px solid white;
+		margin:8px auto;
+		font-family:'Kavoon', cursive;
+		border-radius:7px;
+
+	}
+	.form-group button{
+		display:block;
+		width:400px;
+		margin:15px auto;
+	}
+	.form-group button:hover{
+		background-color:grey;
+	}
